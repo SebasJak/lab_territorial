@@ -9,20 +9,75 @@
 <body>
     <header class="app-bar">
         <nav class="nav-container">
-            <!-- Logo LAB vinculado a Inicio según requerimiento -->
             <a href="index.php" class="logo">LAB</a>
             
             <ul class="nav-links">
-                <li><a href="#sobre">Sobre el proyecto</a></li>
-                <li><a href="#metodologia">Marco metodológico</a></li>
-                <li><a href="#casos">Casos de estudio</a></li>
-                <li><a href="#proyectos">Proyectos de estudiantes</a></li>
-                <li><a href="#pedagogia">Experiencia pedagógica</a></li>
-                <li><a href="#resultados">Resultados e impacto</a></li>
-                <li><a href="#publicaciones">Publicaciones</a></li>
-                <li><a href="#recursos">Recursos</a></li>
-                <li><a href="#equipo">Equipo</a></li>
-                <li><a href="#contacto">Contacto</a></li>
+                <!-- Sobre el Proyecto -->
+                <li class="dropdown">
+                    <a href="#sobre">Sobre el proyecto</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">Contexto y origen</a></li>
+                        <li><a href="#">Problema abordado</a></li>
+                        <li><a href="#">Objetivos</a></li>
+                        <li><a href="#">Alcance geográfico</a></li>
+                        <li><a href="#">Enfoque conceptual</a></li>
+                    </ul>
+                </li>
+
+                <!-- Marco Metodológico -->
+                <li class="dropdown">
+                    <a href="#metodologia">Marco metodológico</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">Explicación de metodología</a></li>
+                        <li><a href="#">Fases (Obs/Análisis/Síntesis)</a></li>
+                        <li><a href="#">Enfoques teóricos</a></li>
+                        <li><a href="#">Instrumentos</a></li>
+                    </ul>
+                </li>
+
+                <!-- Casos de Estudio -->
+                <li class="dropdown">
+                    <a href="#casos">Casos de estudio</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">Perú</a></li>
+                        <li><a href="#">Chile</a></li>
+                        <li><a href="#">México</a></li>
+                    </ul>
+                </li>
+
+                <!-- Proyectos de Estudiantes -->
+                <li class="dropdown">
+                    <a href="#proyectos">Proyectos</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">Propuestas arquitectónicas</a></li>
+                        <li><a href="#">Registro visual</a></li>
+                        <li><a href="#">Conceptos de diseño</a></li>
+                        <li><a href="#">Relación con el paisaje</a></li>
+                    </ul>
+                </li>
+
+                <!-- Experiencia Pedagógica -->
+                <li class="dropdown">
+                    <a href="#pedagogia">Experiencia</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">Aplicación en aula</a></li>
+                        <li><a href="#">Rol del estudiante</a></li>
+                        <li><a href="#">Aprendizajes</a></li>
+                        <li><a href="#">Reflexiones y Testimonios</a></li>
+                    </ul>
+                </li>
+
+                <!-- Más (Resultados, Publicaciones, Recursos) -->
+                <li class="dropdown">
+                    <a href="#">Más...</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">Resultados e Impacto</a></li>
+                        <li><a href="#">Publicaciones</a></li>
+                        <li><a href="#">Repositorio de Recursos</a></li>
+                        <li><a href="#">Equipo</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </li>
             </ul>
         </nav>
     </header>
