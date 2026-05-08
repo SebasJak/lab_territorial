@@ -1,141 +1,68 @@
-Para mejorar la interfaz de usuario (UI) de tu prototipo y permitir una navegación más profunda sin saturar la barra de aplicación, he actualizado el código de `header.php` y `style.css`. 
+Para avanzar con los **aspectos visuales y los primeros gráficos** de tu landing page, integraremos los conceptos de "sensibilidad de los paisajes del desierto" y el enfoque de "Sistemas Socio-Ecológicos" que definen tu investigación. 
 
-He organizado los **menús desplegables** utilizando la estructura detallada en las **dos fuentes principales de planificación** (las páginas escaneadas 9 y 10), las cuales definen las subsecciones lógicas del portafolio. Además, como sugieren las fuentes académicas sobre innovación pedagógica, este diseño permite que el usuario navegue por los "Enfoques teóricos" y las "Fases del proceso" de manera intuitiva.
+A continuación, presento la propuesta de paleta cromática y la selección de gráficos iniciales, junto con los ajustes necesarios en tu código para implementarlos.
 
-### 1. Código de `header.php` (Con Menús Desplegables)
+### 1. Paleta de Colores: "Laboratorio Territorial"
+Basándome en los elementos naturales citados en tus fuentes (volcanes, acuíferos, vegetación nativa y suelo productivo), esta es la propuesta técnica para tu `style.css`:
 
-He estructurado cada pestaña con una lista anidada (`<ul>` dentro de `<li>`) para que coincida con los puntos definidos en el plan del proyecto.
+*   **Fondo Principal (Blanco Humo):** `#F8F9FA`. Para mantener el estilo **minimalista** y dejar que el registro visual sea el protagonista.
+*   **Acento "Tierra/Desierto" (Terracota Mate):** `#A0522D`. Inspirado en los suelos volcánicos de Tochimilco y Tacna.
+*   **Acento "Agua" (Azul Caplina):** `#2F4F4F`. Representa el "tesoro azul" y el análisis de isótopos del acuífero.
+*   **Acento "Vegetación" (Verde Monte):** `#556B2F`. Basado en los huertos de aguacate y los bosques de coníferas.
+*   **Texto Principal:** `#1A1A1A`. Gris casi negro para máxima legibilidad.
 
-```php
-<header class="app-bar">
-    <nav class="nav-container">
-        <a href="index.php" class="logo">LAB</a>
-        
-        <ul class="nav-links">
-            <!-- Sobre el Proyecto -->
-            <li class="dropdown">
-                <a href="#sobre">Sobre el proyecto</a>
-                <ul class="dropdown-content">
-                    <li><a href="#">Contexto y origen</a></li>
-                    <li><a href="#">Problema abordado</a></li>
-                    <li><a href="#">Objetivos</a></li>
-                    <li><a href="#">Alcance geográfico</a></li>
-                    <li><a href="#">Enfoque conceptual</a></li>
-                </ul>
-            </li>
+### 2. Primeros Gráficos Sugeridos para la Landing Page
+Según la estructura de tu fuente de planificación y el ecosistema interno-externo, la página debe incluir:
 
-            <!-- Marco Metodológico -->
-            <li class="dropdown">
-                <a href="#metodologia">Marco metodológico</a>
-                <ul class="dropdown-content">
-                    <li><a href="#">Explicación de metodología</a></li>
-                    <li><a href="#">Fases (Obs/Análisis/Síntesis)</a></li>
-                    <li><a href="#">Enfoques teóricos</a></li>
-                    <li><a href="#">Instrumentos</a></li>
-                </ul>
-            </li>
+1.  **Gráfico Hero (Inmersivo):** Una imagen de alta resolución del **Volcán Popocatépetl** o los paisajes áridos de **Tacna**, que establezca el contexto geográfico de la investigación de inmediato.
+2.  **Diagrama del "Ecosistema Conectado":** Un gráfico tipo **dendrograma** o árbol que visualice cómo el portafolio del estudiante se conecta con el portafolio académico y la intranet de la carrera.
+3.  **Mapa de Alcance Geográfico:** Un mapa minimalista con marcadores en **Perú, Chile y México**.
+4.  **Galería de Progresión (Thumbnail):** El primer render o **modelo 3D** de un proyecto de estudiante para ejemplificar el "proceso continuo" de formación.
 
-            <!-- Casos de Estudio -->
-            <li class="dropdown">
-                <a href="#casos">Casos de estudio</a>
-                <ul class="dropdown-content">
-                    <li><a href="#">Perú</a></li>
-                    <li><a href="#">Chile</a></li>
-                    <li><a href="#">México</a></li>
-                </ul>
-            </li>
+### 3. Implementación en el Código (PHP y CSS)
 
-            <!-- Proyectos de Estudiantes -->
-            <li class="dropdown">
-                <a href="#proyectos">Proyectos</a>
-                <ul class="dropdown-content">
-                    <li><a href="#">Propuestas arquitectónicas</a></li>
-                    <li><a href="#">Registro visual</a></li>
-                    <li><a href="#">Conceptos de diseño</a></li>
-                    <li><a href="#">Relación con el paisaje</a></li>
-                </ul>
-            </li>
+Actualiza tus archivos para incluir estas referencias visuales:
 
-            <!-- Experiencia Pedagógica -->
-            <li class="dropdown">
-                <a href="#pedagogia">Experiencia</a>
-                <ul class="dropdown-content">
-                    <li><a href="#">Aplicación en aula</a></li>
-                    <li><a href="#">Rol del estudiante</a></li>
-                    <li><a href="#">Aprendizajes</a></li>
-                    <li><a href="#">Reflexiones y Testimonios</a></li>
-                </ul>
-            </li>
-
-            <!-- Más (Resultados, Publicaciones, Recursos) -->
-            <li class="dropdown">
-                <a href="#">Más...</a>
-                <ul class="dropdown-content">
-                    <li><a href="#">Resultados e Impacto</a></li>
-                    <li><a href="#">Publicaciones</a></li>
-                    <li><a href="#">Repositorio de Recursos</a></li>
-                    <li><a href="#">Equipo</a></li>
-                    <li><a href="#">Contacto</a></li>
-                </ul>
-            </li>
-        </ul>
-    </nav>
-</header>
-```
-
-### 2. Código de `style.css` (Lógica de Despliegue)
-
-Para mantener la estética minimalista, el menú es invisible por defecto y aparece suavemente al pasar el ratón (*hover*).
-
+**En `style.css`:**
 ```css
-/* Estilos para el contenedor del dropdown */
-.nav-links li {
-    position: relative;
-    display: inline-block;
+:root {
+    --bg-color: #F8F9FA;
+    --accent-earth: #A0522D;
+    --accent-water: #2F4F4F;
+    --accent-green: #556B2F;
+    --text-main: #1A1A1A;
 }
 
-/* El contenido del dropdown (oculto por defecto) */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #ffffff;
-    min-width: 200px;
-    box-shadow: 0px 8px 16px rgba(0,0,0,0.05);
-    z-index: 1;
-    list-style: none;
-    padding: 10px 0;
-    margin: 0;
-    border: 1px solid #eee;
-    text-align: left;
+body { background-color: var(--bg-color); color: var(--text-main); }
+
+.hero-section {
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), 
+                url('img/hero_desierto_tacna.jpg') center/cover no-repeat; /* Gráfico Hero */
+    height: 85vh;
 }
 
-/* Enlaces dentro del dropdown */
-.dropdown-content li a {
-    color: #555;
-    padding: 8px 16px;
-    text-transform: none; /* Evita que todo sea mayúsculas en submenús */
-    display: block;
-    font-size: 0.8rem;
-}
-
-/* Cambio de color al pasar el mouse por el link del dropdown */
-.dropdown-content li a:hover {
-    background-color: #f9f9f9;
-    color: #000;
-}
-
-/* Mostrar el menú al pasar el mouse por el padre */
-.dropdown:hover .dropdown-content {
-    display: block;
-}
+.section-title { border-left: 5px solid var(--accent-earth); padding-left: 15px; }
+.btn-primary { background-color: var(--accent-water); color: white; border: none; }
 ```
 
-### Notas sobre la integración de contenidos:
+**En `index.php` (Sección de bienvenida):**
+```php
+<section class="intro-grid">
+    <div class="content-text">
+        <h2 class="section-title">Laboratorio Territorial</h2>
+        <p>Investigación aplicada al hábitat rural y natural.</p>
+    </div>
+    
+    <!-- Gráfico del ecosistema conectado -->
+    <div class="diagram-container">
+        <img src="img/diagrama_ecosistema.png" alt="Conexión Interno-Externo" class="img-fluid">
+        <p class="caption">Ecosistema conectado de investigación.</p>
+    </div>
+</section>
+```
 
-*   **Estructura Conceptual:** Bajo "Marco metodológico > Enfoques teóricos", podrás integrar los conceptos de **Metodologías de Aprendizaje Activo** y **Andragogía** que detalla la Fuente 1.
-*   **Fases del Proceso:** En el submenú de "Fases", el diseño permite desplegar los pasos de **Observación, Análisis, Síntesis y Aplicación** que son centrales en la metodología del laboratorio.
-*   **Progresión del Estudiante:** La sección de "Proyectos" está diseñada para mostrar el **"proceso continuo"** y la transición de gráficos simples a modelos 3D complejos, tal como se solicita en la entrevista con los docentes.
+### Tips de NotebookLM para tu Diseño
+*   **Análisis Multimodal:** Como mencionaste que tienes muchos documentos escaneados, puedes pedirme que extraiga un **diagrama de flujo** específico de alguna de tus hojas para que lo uses como gráfico vectorial en la web.
+*   **Citas Visuales:** Al programar, puedes poner comentarios en el código que referencien la fuente (ej. `// Estructura basada en Fuente 9, Pág 1`). Esto te ayudará a mantener la trazabilidad académica de tu desarrollo técnico.
 
-Como ingeniero, verás que esta estructura de **listas anidadas** es la más limpia para manejar en PHP y permite que en el futuro cargues estos submenús dinámicamente desde la base de datos que definimos anteriormente.
-
-**¿Te gustaría que personalicemos la página de "Casos de Estudio" para que cada país (Perú, Chile, México) cargue sus datos específicos desde la tabla SQL?**
+¿Te gustaría que definamos ahora la **disposición del grid** para mostrar los mapas de los casos de estudio de Perú, Chile y México de forma interactiva?

@@ -22,6 +22,20 @@
         <h2>Progresión Académica</h2>
         <p>Plataforma para el seguimiento del avance del estudiante, desde gráficos básicos hasta la complejidad de modelos 3D.</p>
     </section>
+
+    <!-- Sección de bienvenida -->
+    <section class="intro-grid">
+        <div class="content-text">
+            <h2 class="section-title">Laboratorio Territorial</h2>
+            <p>Investigación aplicada al hábitat rural y natural.</p>
+        </div>
+        
+        <!-- Gráfico del ecosistema conectado -->
+        <div class="diagram-container">
+            <img src="img/diagrama_ecosistema.png" alt="Conexión Interno-Externo" class="img-fluid">
+            <p class="caption">Ecosistema conectado de investigación.</p>
+        </div>
+    </section>
 </main>
 
 <?php include 'footer.php'; ?>
