@@ -5,10 +5,21 @@
     <section class="hero">
         <div class="hero-content">
             <h1>Laboratorio Territorial para la Innovación</h1>
-            <p class="tagline">"Innovación pedagógica desde la sensibilidad de los paisajes del desierto"</p>
+            <p class="tagline">
+                "Aprender desde el desierto para transformar el territorio: una red académica
+                que forma agentes de cambio en paisajes desérticos de América Latina"
+            </p>
             <p class="description">
-                Investigación en escuelas de arquitectura de <strong>Perú, Chile y México</strong> 
-                enfocada en el desarrollo de competencias disciplinares en territorios áridos.
+                El Laboratorio Territorial es una plataforma de innovación pedagógica que 
+                articula universidades del <strong>Perú, Chile y México</strong> en torno al 
+                estudio de los paisajes desérticos. A través del aprendizaje situado y la 
+                experiencia directa en el territorio, promueve la comprensión crítica de sus 
+                dinámicas y problemáticas.
+                <br>
+                Este espacio busca integrar academia, comunidad y paisaje para formar agentes
+                de cambio comprometidos con el desarrollo sostenible. Asimismo, impulsa la 
+                construcción de redes académicas y la generación de conocimiento aplicado desde
+                el territorio.
             </p>
             <div class="hero-actions">
                 <a href="#casos" class="btn-primary">Explorar Casos de Estudio</a>
