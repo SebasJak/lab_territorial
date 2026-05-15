@@ -96,32 +96,50 @@ body {
     display: block;
 }
 
-.hero {
-    height: 80vh;
+.hero-split {
     display: flex;
+    flex-direction: column; /* Imagen arriba en móviles */
     align-items: center;
-    padding: 0 10%;
-    background: #f9f9f9;
+    padding: 60px 10%;
+    gap: 40px;
+    background-color: var(--bg-color); /* Usando variables de Codigos.md [3] */
 }
 
-.hero-content {
-    max-width: 700px;
+.hero-visual {
+    width: 100%;
 }
 
-.hero-section {
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), 
-                url('img/hero_desierto_tacna.jpg') center/cover no-repeat; /* Gráfico Hero */
-    height: 85vh;
+.hero-img {
+    width: 100%;
+    height: auto;
+    border-radius: 2px;
+    /* Mantenemos el enfoque limpio y minimalista */
 }
 
-.section-title { border-left: 5px solid var(--accent-earth); padding-left: 15px; }
-.btn-primary { background-color: var(--accent-water); color: white; border: none; }
+.hero-content-text {
+    max-width: 600px;
+    text-align: left;
+}
 
-.tagline {
-    font-style: italic;
-    color: var(--accent);
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
+/* Estilo para el título con el acento de tierra definido en tus fuentes [2] */
+.project-title {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    border-left: 5px solid var(--accent-earth);
+    padding-left: 20px;
+}
+
+/* Cambio a visualización 'al costado' para escritorio */
+@media (min-width: 1024px) {
+    .hero-split {
+        flex-direction: row; /* Imagen al costado del texto */
+        min-height: 80vh;
+        justify-content: space-between;
+    }
+    
+    .hero-visual, .hero-content-text {
+        flex: 1;
+    }
 }
 
 .main-footer {
