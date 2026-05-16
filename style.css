@@ -7,145 +7,123 @@
     --accent-water: #2F4F4F;
     --accent-green: #556B2F;
     --text-main: #1A1A1A;
+    --accent-earth: #A0522D; /* Acento de tierra de las fuentes [4] */
+    --accent-soft: #f4f4f4;
 }
 
 body {
     margin: 0;
     font-family: 'Inter', sans-serif;
     background: var(--main-bg);
-    color: var(--text-color);
     background-color: var(--bg-color);
     color: var(--text-main);
 }
 
+/* Navbar Responsivo con muchos enlaces */
 .app-bar {
-    padding: 20px 40px;
-    display: flex;
-    border-bottom: 1px solid #eaeaea;
+    padding: 15px 3%;
     background: #fff;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    align-items: center;
     position: sticky;
     top: 0;
-    z-index: 100;
+    z-index: 1000;
 }
 
 .logo {
-    font-weight: 800;
-    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 1.3rem;
     text-decoration: none;
     color: #000;
-    font-size: 1.2rem;
+    margin-right: 20px;
 }
 
 .nav-links {
     display: flex;
     list-style: none;
-    gap: 20px;
+    gap: 12px;
     margin-left: auto;
-    font-size: 0.75rem;
+    font-size: 0.65rem; /* Tamaño reducido para acomodar todos los links */
     text-transform: uppercase;
 }
 
 .nav-links a {
     text-decoration: none;
-    color: var(--accent);
+    color: #666;
     transition: 0.3s;
 }
 
-.nav-links a:hover {
-    color: #000;
-}
+.nav-links a:hover { color: #000; }
 
-/* Estilos para el contenedor del dropdown */
-.nav-links li {
-    position: relative;
-    display: inline-block;
-}
+/* Menús Desplegables */
+.nav-links li { position: relative; }
 
-/* El contenido del dropdown (oculto por defecto) */
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #ffffff;
-    min-width: 200px;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.05);
+    background-color: #fff;
+    min-width: 180px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
     z-index: 1;
-    list-style: none;
-    padding: 10px 0;
-    margin: 0;
-    border: 1px solid #eee;
-    text-align: left;
+    top: 100%;
+    border-top: 2px solid var(--accent-earth);
 }
 
-/* Enlaces dentro del dropdown */
 .dropdown-content li a {
-    color: #555;
-    padding: 8px 16px;
-    text-transform: none; /* Evita que todo sea mayúsculas en submenús */
+    padding: 10px 15px;
+    text-transform: none;
     display: block;
-    font-size: 0.8rem;
+    font-size: 0.75rem;
 }
 
-/* Cambio de color al pasar el mouse por el link del dropdown */
-.dropdown-content li a:hover {
-    background-color: #f9f9f9;
-    color: #000;
-}
+.dropdown:hover .dropdown-content { display: block; }
 
-/* Mostrar el menú al pasar el mouse por el padre */
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
+/* Hero Section Split [3, 4] */
 .hero-split {
     display: flex;
-    flex-direction: column; /* Imagen arriba en móviles */
-    align-items: center;
-    padding: 60px 10%;
-    gap: 40px;
-    background-color: var(--bg-color); /* Usando variables de Codigos.md [3] */
-}
-
-.hero-visual {
-    width: 100%;
+    flex-direction: column;
+    padding: 40px 5%;
+    gap: 30px;
 }
 
 .hero-img {
     width: 100%;
     height: auto;
     border-radius: 2px;
-    /* Mantenemos el enfoque limpio y minimalista */
 }
 
-.hero-content-text {
-    max-width: 600px;
-    text-align: left;
-}
+.hero-content-text { max-width: 600px; }
 
-/* Estilo para el título con el acento de tierra definido en tus fuentes [2] */
 .project-title {
-    font-size: 2.5rem;
-    line-height: 1.2;
+    font-size: 2.2rem;
     border-left: 5px solid var(--accent-earth);
     padding-left: 20px;
+    margin-bottom: 20px;
 }
 
-/* Cambio a visualización 'al costado' para escritorio */
+.tagline {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+/* Adaptación para Escritorio */
 @media (min-width: 1024px) {
     .hero-split {
-        flex-direction: row; /* Imagen al costado del texto */
-        min-height: 80vh;
-        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        height: 80vh;
     }
-    
-    .hero-visual, .hero-content-text {
-        flex: 1;
-    }
+    .hero-visual, .hero-content-text { flex: 1; }
+    .nav-links { font-size: 0.7rem; gap: 15px; }
 }
 
 .main-footer {
     padding: 60px 10%;
     background: #1a1a1a;
     color: #fff;
+    padding: 40px 5%;
     margin-top: 50px;
 }
 

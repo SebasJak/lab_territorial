@@ -1,4 +1,4 @@
-    <footer class="main-footer">
+    <footer class="main-footer" id="logos">
         <div class="footer-grid">
             <!-- Columna 1: Identidad -->
             <div class="footer-col">
@@ -20,9 +20,9 @@
             <div class="footer-col">
                 <h4>Red Académica</h4>
                 <div class="logos-grid">
-                    <span>UNJBG (Perú)</span>
-                    <span>UNAP (Chile)</span>
-                    <span>Tec de Monterrey (México)</span>
+                    <span>UNJBG (Perú)</span> |
+                    <span>UNAP (Chile)</span> |
+                    <span>UACJ (México)</span>
                 </div>
             </div>
         </div>

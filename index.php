@@ -1,21 +1,22 @@
 <?php include 'header.php'; ?>
 
 <main>
-    <!-- Nueva estructura de Hero Section con imagen integrada -->
+    <!-- Hero Section con diseño dividido (Imagen al costado/arriba) [3] -->
     <section class="hero-split">
         <div class="hero-visual">
             <!-- La imagen bg.jpeg ahora es un elemento directo -->
             <img src="img/bg.jpeg" alt="Inmersión territorial en el paisaje" class="hero-img">
         </div>
-        
+
         <div class="hero-content-text">
+            <!-- Título y Frase Síntesis de LAB Códigos [3] -->
             <h1 class="project-title">Laboratorio Territorial para la Innovación</h1>
             <p class="tagline">
                 "Aprender desde el desierto para transformar el territorio: una red académica
                 que forma agentes de cambio en paisajes desérticos de América Latina"
             </p>
             
-            <div class="intro-text">
+            <div class="intro-text" id="introduccion">
                 <p>El Laboratorio Territorial es una plataforma de innovación pedagógica que 
                 articula universidades del <strong>Perú, Chile y México</strong> en torno al 
                 estudio de los paisajes desérticos. A través del aprendizaje situado y la 
@@ -28,30 +29,12 @@
                 el territorio.</p>
             </div>
 
-            <div class="cta-container">
-                <a href="#casos" class="btn-primary">Explorar Casos de Estudio</a>
-                <a href="#proyectos" class="btn-secondary">Portafolio de Estudiantes</a>
+            <!-- Accesos directos [1] -->
+            <div class="cta-container" id="accesos">
+                <a href="#metodologia" class="btn-primary">Metodología</a>
+                <a href="#casos" class="btn-primary">Casos de Estudio</a>
+                <a href="#resultados" class="btn-primary">Resultados</a>
             </div>
-        </div>
-    </section>
-
-    <!-- Sección de Proceso Continuo (Fuente 2) -->
-    <section id="proyectos" class="info-section">
-        <h2>Progresión Académica</h2>
-        <p>Plataforma para el seguimiento del avance del estudiante, desde gráficos básicos hasta la complejidad de modelos 3D.</p>
-    </section>
-
-    <!-- Sección de bienvenida -->
-    <section class="intro-grid">
-        <div class="content-text">
-            <h2 class="section-title">Laboratorio Territorial</h2>
-            <p>Investigación aplicada al hábitat rural y natural.</p>
-        </div>
-        
-        <!-- Gráfico del ecosistema conectado -->
-        <div class="diagram-container">
-            <img src="img/diagrama_ecosistema.png" alt="Conexión Interno-Externo" class="img-fluid">
-            <p class="caption">Ecosistema conectado de investigación.</p>
         </div>
     </section>
 </main>
