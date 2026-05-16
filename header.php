@@ -19,6 +19,7 @@
                     <ul class="dropdown-content">
                         <li><a href="#introduccion">Introducción</a></li>
                         <li><a href="#accesos">Accesos directos</a></li>
+                        <li><a href="#logos">Instituciones</a></li>
                     </ul>
                 </li>
 

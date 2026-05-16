@@ -37,6 +37,17 @@
             </div>
         </div>
     </section>
+
+    <!-- Nueva Sección de Instituciones Involucradas -->
+    <section id="logos" class="institutional-section">
+        <p class="institutional-label">Instituciones involucradas en la investigación:</p>
+        <div class="logos-container">
+            <!-- Logos basados en las nuevas fuentes importadas -->
+            <div class="logo-item"><img src="img/logo-unjbg.png" alt="UNJBG Perú"></div>
+            <div class="logo-item"><img src="img/logo-unap.png" alt="UNAP Chile"></div>
+            <div class="logo-item"><img src="img/logo-uacj.svg" alt="UACJ México"></div>
+        </div>
+    </section>
 </main>
 
 <?php include 'footer.php'; ?>
