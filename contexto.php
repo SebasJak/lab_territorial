@@ -2,10 +2,8 @@
 
 <main class="content-detail-main">
     <section class="container">
-        <!-- Título en Mayúsculas -->
         <h1 class="detail-title">CONTEXTO Y ORIGEN DE LA INVESTIGACIÓN</h1>
 
-        <!-- Contenedor de dos columnas -->
         <div class="bilingual-columns">
             <div class="column-es">
                 <h3>Español</h3>
@@ -19,21 +17,17 @@
             </div>
         </div>
 
-        <!-- Sección de Planos de Ubicación -->
         <div class="location-plans-section">
-            <h2>Planos de Ubicación</h2>
+            <h2 class="plans-title">PLANOS DE UBICACIÓN</h2>
             <div class="plans-row">
-                <!-- Tacna, Perú -->
                 <div class="plan-item">
                     <div class="green-rect"></div>
                     <p class="plan-label">Tacna - Perú</p>
                 </div>
-                <!-- Iquique, Chile -->
                 <div class="plan-item">
                     <div class="green-rect"></div>
                     <p class="plan-label">Iquique - Chile</p>
                 </div>
-                <!-- Juárez, México -->
                 <div class="plan-item">
                     <div class="green-rect"></div>
                     <p class="plan-label">Juárez - México</p>

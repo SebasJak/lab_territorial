@@ -2,7 +2,8 @@
 
 <main class="sobre-main">
     <section class="section-container">
-        <h1 class="page-title">Sobre el Proyecto</h1>
+        <h1 class="page-title">SOBRE EL PROYECTO</h1>
+        <p class="page-subtitle">About project</p>
         
         <div class="horizontal-row">
             <!-- 1. Contexto y origen -->
