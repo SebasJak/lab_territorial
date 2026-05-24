@@ -205,11 +205,7 @@ body {
     color: #666;
 }
 
-/* ESTILOS PARA PÁGINAS DE CONTENIDO (Sobre el Proyecto) */
-
-/* =========================================================
-   ESTILOS PARA SOBRE EL PROYECTO (FILA HORIZONTAL)
-   ========================================================= */
+/* ESTILOS PARA SOBRE EL PROYECTO (FILA HORIZONTAL) */
 
 .sobre-main {
     padding: 80px 5%;
@@ -282,4 +278,80 @@ body {
         align-items: center;
         gap: 40px;
     }
+}
+
+/* Estilos para Enlaces en Sobre el Proyecto */
+.sub-point-link {
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.3s ease;
+}
+
+.sub-point-link:hover {
+    transform: translateY(-5px);
+}
+
+/* Estilos para Contexto.php */
+.content-detail-main {
+    padding: 60px 10%;
+    background-color: #fff;
+}
+
+.detail-title {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+}
+
+/* Grid para dos columnas bilingües */
+.bilingual-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    margin-bottom: 80px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.column-es h3, .column-en h3 {
+    font-size: 0.9rem;
+    color: #888;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+/* Sección de Planos (Rectángulos verdes) */
+.location-plans-section {
+    text-align: center;
+}
+
+.plans-row {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.plan-item {
+    flex: 1;
+    max-width: 250px;
+}
+
+.green-rect {
+    width: 100%;
+    aspect-ratio: 1.5 / 1;
+    background-color: #2E8B57; /* Verde para planos de ubicación */
+    margin-bottom: 15px;
+}
+
+.plan-label {
+    font-weight: bold;
+    font-size: 0.85rem;
+}
+
+/* Responsividad para móviles */
+@media (max-width: 768px) {
+    .bilingual-columns { grid-template-columns: 1fr; }
+    .plans-row { flex-direction: column; align-items: center; }
 }

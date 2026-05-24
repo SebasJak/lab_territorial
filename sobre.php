@@ -4,33 +4,38 @@
     <section class="section-container">
         <h1 class="page-title">Sobre el Proyecto</h1>
         
-        <!-- Fila horizontal para los cuatro sub-puntos -->
         <div class="horizontal-row">
-            
             <!-- 1. Contexto y origen -->
-            <div class="sub-point-item">
-                <div class="square-placeholder"></div>
-                <p class="sub-point-label">Contexto y origen de la investigación</p>
-            </div>
+            <a href="contexto.php" class="sub-point-link">
+                <div class="sub-point-item">
+                    <div class="square-placeholder"></div>
+                    <p class="sub-point-label">Contexto y origen de la investigación</p>
+                </div>
+            </a>
 
             <!-- 2. Problema abordado -->
-            <div class="sub-point-item">
-                <div class="square-placeholder"></div>
-                <p class="sub-point-label">Problema abordado</p>
-            </div>
+            <a href="problema.php" class="sub-point-link">
+                <div class="sub-point-item">
+                    <div class="square-placeholder"></div>
+                    <p class="sub-point-label">Problema abordado</p>
+                </div>
+            </a>
 
             <!-- 3. Objetivos -->
-            <div class="sub-point-item">
-                <div class="square-placeholder"></div>
-                <p class="sub-point-label">Objetivos</p>
-            </div>
+            <a href="objetivos.php" class="sub-point-link">
+                <div class="sub-point-item">
+                    <div class="square-placeholder"></div>
+                    <p class="sub-point-label">Objetivos</p>
+                </div>
+            </a>
 
             <!-- 4. Enfoque conceptual -->
-            <div class="sub-point-item">
-                <div class="square-placeholder"></div>
-                <p class="sub-point-label">Enfoque conceptual (paisaje, territorio, educación)</p>
-            </div>
-
+            <a href="enfoque.php" class="sub-point-link">
+                <div class="sub-point-item">
+                    <div class="square-placeholder"></div>
+                    <p class="sub-point-label">Enfoque conceptual (paisaje, territorio, educación)</p>
+                </div>
+            </a>
         </div>
     </section>
 </main>
