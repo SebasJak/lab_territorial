@@ -18,19 +18,17 @@
                     <a href="index.php">Home</a>
                     <ul class="dropdown-content">
                         <li><a href="#introduccion">Introducción</a></li>
-                        <li><a href="#accesos">Accesos directos</a></li>
                         <li><a href="#logos">Instituciones</a></li>
                     </ul>
                 </li>
 
                 <!-- 2. Sobre el proyecto [1] -->
                 <li class="dropdown">
-                    <a href="#sobre">Sobre el proyecto</a>
+                    <a href="sobre.php">Sobre el proyecto</a>
                     <ul class="dropdown-content">
                         <li><a href="#">Contexto y origen</a></li>
                         <li><a href="#">Problema abordado</a></li>
                         <li><a href="#">Objetivos</a></li>
-                        <li><a href="#">Alcance geográfico</a></li>
                         <li><a href="#">Enfoque conceptual</a></li>
                     </ul>
                 </li>
@@ -41,7 +39,6 @@
                     <ul class="dropdown-content">
                         <li><a href="#">Explicación metodología</a></li>
                         <li><a href="#">Fases del proceso</a></li>
-                        <li><a href="#">Enfoques teóricos</a></li>
                         <li><a href="#">Instrumentos</a></li>
                     </ul>
                 </li>
@@ -67,58 +64,74 @@
                     </ul>
                 </li>
 
-                <!-- 6. Experiencia pedagógica [1] -->
+                <!-- 6. Experiencia pedagógica -->
                 <li class="dropdown">
-                    <a href="#pedagogia">Experiencia</a>
+                    <a href="#experiencia">Experiencia</a>
                     <ul class="dropdown-content">
-                        <li><a href="#">Aplicación en aula</a></li>
+                        <li><a href="#">Aplicación en aula/taller</a></li>
                         <li><a href="#">Rol del estudiante</a></li>
-                        <li><a href="#">Aprendizajes</a></li>
-                        <li><a href="#">Reflexiones y Testimonios</a></li>
+                        <li><a href="#">Aprendizajes obtenidos</a></li>
+                        <li><a href="#">Reflexiones docentes</a></li>
+                        <li><a href="#">Testimonios</a></li>
                     </ul>
                 </li>
 
-                <!-- 7. Resultados e impacto [2] -->
+                <!-- 7. Resultados e impacto -->
                 <li class="dropdown">
                     <a href="#resultados">Resultados</a>
                     <ul class="dropdown-content">
                         <li><a href="#">Principales hallazgos</a></li>
                         <li><a href="#">Aportes metodológicos</a></li>
-                        <li><a href="#">Impacto territorial</a></li>
+                        <li><a href="#">Impacto en estudiantes</a></li>
+                        <li><a href="#">Impacto territorial/social</a></li>
+                        <li><a href="#">Indicadores</a></li>
                     </ul>
                 </li>
 
-                <!-- 8. Publicaciones y productos [2] -->
+                <!-- 8. Publicaciones y productos -->
                 <li class="dropdown">
                     <a href="#publicaciones">Publicaciones</a>
                     <ul class="dropdown-content">
                         <li><a href="#">Artículos académicos</a></li>
                         <li><a href="#">Ponencias</a></li>
+                        <li><a href="#">Libros / capítulos</a></li>
                         <li><a href="#">Material descargable (PDF)</a></li>
                     </ul>
                 </li>
 
-                <!-- 9. Recursos / repositorio [2] -->
+                <!-- 9. Recursos / repositorio -->
                 <li class="dropdown">
                     <a href="#recursos">Recursos</a>
                     <ul class="dropdown-content">
                         <li><a href="#">Fichas metodológicas</a></li>
+                        <li><a href="#">Plantillas de análisis</a></li>
                         <li><a href="#">Mapas</a></li>
                         <li><a href="#">Material audiovisual</a></li>
+                        <li><a href="#">Base de datos</a></li>
                     </ul>
                 </li>
 
-                <!-- 10. Equipo [2] -->
+                <!-- 10. Equipo -->
                 <li class="dropdown">
                     <a href="#equipo">Equipo</a>
                     <ul class="dropdown-content">
                         <li><a href="#">Investigadores</a></li>
-                        <li><a href="#">Instituciones</a></li>
+                        <li><a href="#">Instituciones participantes</a></li>
+                        <li><a href="#">Colaboradores</a></li>
+                        <li><a href="#">Redes académicas</a></li>
                     </ul>
                 </li>
 
-                <!-- 11. Contacto [2] -->
-                <li><a href="#contacto">Contacto</a></li>
+                <!-- 11. Contacto -->
+                <li class="dropdown">
+                    <a href="#contacto">Contacto</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">Correo</a></li>
+                        <li><a href="#">Institución</a></li>
+                        <li><a href="#">Redes sociales</a></li>
+                        <li><a href="#">Formulario de contacto</a></li>
+                    </ul>
+                </li>
             </ul>
         </nav>
     </header>

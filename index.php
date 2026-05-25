@@ -21,9 +21,8 @@
                 articula universidades del <strong>Perú, Chile y México</strong> en torno al 
                 estudio de los paisajes desérticos. A través del aprendizaje situado y la 
                 experiencia directa en el territorio, promueve la comprensión crítica de sus 
-                dinámicas y problemáticas.
-                <br>
-                Este espacio busca integrar academia, comunidad y paisaje para formar agentes
+                dinámicas y problemáticas.</p>
+                <p>Este espacio busca integrar academia, comunidad y paisaje para formar agentes
                 de cambio comprometidos con el desarrollo sostenible. Asimismo, impulsa la 
                 construcción de redes académicas y la generación de conocimiento aplicado desde
                 el territorio.</p>
