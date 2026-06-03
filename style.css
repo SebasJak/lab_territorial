@@ -7,7 +7,6 @@
     --accent-water: #2F4F4F;
     --accent-green: #556B2F;
     --text-main: #1A1A1A;
-    --accent-earth: #A0522D; /* Acento de tierra de las fuentes [4] */
     --accent-soft: #f4f4f4;
 }
 
@@ -145,6 +144,48 @@ body {
     opacity: 1;
     transform: scale(1.05);
 }
+/* Secciones de Equipo y Contacto */
+.team-section, .contact-section {
+    padding: 80px 10%;
+    text-align: center;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.member-photo-placeholder {
+    width: 120px;
+    height: 120px;
+    background-color: #eee;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    text-align: left;
+    margin-top: 40px;
+}
+
+.contact-form-mock {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex: 1;
+}
+
+.contact-form-mock input, .contact-form-mock textarea {
+    padding: 12px;
+    border: 1px solid #ddd;
+    font-family: inherit;
+}
 
 /* Adaptación para Escritorio */
 @media (min-width: 1024px) {
@@ -161,6 +202,7 @@ body {
 @media (max-width: 768px) {
     .logos-container { gap: 40px; }
     .logo-item img { height: 60px; /* Tamaño intermedio para pantallas pequeñas */ }
+    .contact-container { flex-direction: column; }
 }
 
 .main-footer {
@@ -262,6 +304,7 @@ body {
 }
 
 .column-es h3, .column-en h3 { font-size: 0.8rem; color: #aaa; text-transform: uppercase; margin-bottom: 20px; }
+.column-es img, .column-en img { width: 100%; margin-bottom: 20px; }
 
 /* Sección de Planos (Rectángulos verdes) */
 .location-plans-section { border-top: 1px solid #eee; padding-top: 60px; text-align: center; }
@@ -269,13 +312,47 @@ body {
 .plans-row { display: flex; justify-content: center; gap: 30px; }
 .plan-item {
     flex: 1;
-    max-width: 250px;
+    max-width: 650px;
 }
-.green-rect { width: 100%; aspect-ratio: 16/9; background-color: #2E8B57; margin-bottom: 15px; }
+.plan-item img { width: 100%; margin-bottom: 15px; }
 .plan-label { font-size: 0.8rem; font-weight: bold; }
 
 /* Responsividad para móviles */
 @media (max-width: 768px) {
     .bilingual-columns { grid-template-columns: 1fr; }
     .plans-row { flex-direction: column; align-items: center; }
+}
+
+/* Objetivos */
+
+.styled-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.styled-list li {
+    margin-bottom: 18px;
+    padding-left: 30px;
+    position: relative;
+    line-height: 1.6;
+    font-size: 0.95rem;
+    text-align: left;
+}
+
+/* Viñeta personalizada (Flecha) */
+.styled-list li::before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: var(--accent-earth); /* Color #A0522D basado en el paisaje [1] */
+    font-weight: bold;
+}
+
+/* Resaltado de ítems principales dentro de la lista */
+.styled-list li strong {
+    color: #333;
+    display: inline-block;
+    margin-right: 5px;
 }

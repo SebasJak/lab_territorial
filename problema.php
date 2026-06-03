@@ -12,31 +12,16 @@
                 <p>Las escuelas de arquitectura latinoamericanas no son ajenas a este desafío. Sus modelos educativos demandan un enfoque por competencias, centrado en el estudiante, que articule la investigación formativa con experiencias de aprendizaje fuera del aula. Sin embargo, el uso de metodologías que conecten el proceso proyectual con el territorio sigue siendo escaso en nuestro medio, especialmente en contextos marcados por paisajes singulares como el desierto.</p>
                 <p>El paisaje, entendido no solo en su dimensión visual sino también social, cultural y ecológica, constituye precisamente uno de los recursos formativos más potentes y menos explorados en la enseñanza de la arquitectura. Diversos autores señalan que aprender a leer el territorio — a experimentarlo, no solo a estudiarlo — enriquece el proceso de diseño y forma profesionales más sensibles a su entorno y a las comunidades que lo habitan.</p>
                 <p>En regiones como <strong>Tacna, Iquique y Juarez</strong> con un paisaje desértico de características únicas y en un escenario de cambio climático que transforma aceleradamente el territorio, esta dimensión formativa cobra una urgencia particular. La morfología, los recursos y las condiciones propias del desierto ofrecen un campo de aprendizaje que aún no ha sido suficientemente incorporado a los talleres de diseño arquitectónico.</p>
+                <p>Ante este escenario, surge la necesidad de investigar cómo la gestión del paisaje en la formación profesional — a través de experiencias situadas en el territorio — desarrolla competencias críticas en estudiantes y docentes de arquitectura, transformándolos en agentes activos de cambio social y territorial.</p>
             </div>
             
             <div class="column-en">
                 <h3>English</h3>
-                <p>Higher education currently demands the training of professionals with real competencies to contribute to the sustainable development of their territories [1]. In Latin American architecture schools, although there is a demand for a student-centered competency-based approach, the use of methodologies that connect the design process with the territory—especially in desert landscapes—remains scarce [2].</p>
-                <p>In regions such as <strong>Tacna, Iquique, and Juárez</strong>, the desert landscape offers a unique field of learning that has not yet been sufficiently incorporated into architectural design workshops [3]. Given this scenario, the core problem lies in the need to investigate how landscape management develops critical competencies in students and faculty, transforming them into agents of social and territorial change [3].</p>
-            </div>
-        </div>
-
-        <div class="location-plans-section">
-            <h2 class="plans-title">PLANOS DE UBICACIÓN</h2>
-            <div class="plans-row">
-                <div class="plan-item">
-                    <div class="green-rect"></div>
-                    <p class="plan-label">Tacna - Perú</p>
-                </div>
-                <div class="plan-item">
-                    <div class="green-rect"></div>
-                    <p class="plan-label">Iquique - Chile</p>
-                </div>
-                <div class="plan-item">
-                    <div class="green-rect"></div>
-                    <p class="plan-label">Juárez - México</p>
-                </div>
-            </div>
+                <p>Higher education is undergoing a profound transformation. The Third UNESCO World Conference on Higher Education (Barcelona, 2022) makes this clear: universities must engage with the community, strengthen education as a public good, and build new learning ecosystems. This call, grounded in the Sustainable Development Goals, requires training professionals with practical skills to contribute to the sustainable development of their regions.</p>
+                <p>In this context, theories of meaningful learning, discovery learning, and the sociocultural approach converge on a key point: knowledge is consolidated when students confront real-world problems, reflect on them, and construct solutions through interaction with others. Active methodologies and collaborative learning thus become indispensable tools for university education in the 21st century.</p>
+                <p>Latin American architecture schools are no strangers to this challenge. Their educational models call for a competency-based, student-centered approach that integrates formative research with learning experiences outside the classroom. However, the use of methodologies that connect the design process with the local landscape remains limited in our field, especially in contexts characterized by unique landscapes such as the desert.</p>
+                <p>The landscape, understood not only in its visual dimension but also in its social, cultural, and ecological dimensions, constitutes precisely one of the most powerful and least explored educational resources in the teaching of architecture. Various authors point out that learning to read the territory—to experience it, not just to study it—enriches the design process and shapes professionals who are more sensitive to their environment and the communities that inhabit it.</p>
+                <p>....</p>
         </div>
     </section>
 </main>

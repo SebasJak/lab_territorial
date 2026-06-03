@@ -19,6 +19,8 @@
                     <ul class="dropdown-content">
                         <li><a href="#introduccion">Introducción</a></li>
                         <li><a href="#logos">Instituciones</a></li>
+                        <li><a href="#equipo">Equipo</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
                     </ul>
                 </li>
 
@@ -26,10 +28,10 @@
                 <li class="dropdown">
                     <a href="sobre.php">Sobre el proyecto</a>
                     <ul class="dropdown-content">
-                        <li><a href="#">Contexto y origen</a></li>
-                        <li><a href="#">Problema abordado</a></li>
-                        <li><a href="#">Objetivos</a></li>
-                        <li><a href="#">Enfoque conceptual</a></li>
+                        <li><a href="contexto.php">Contexto y origen</a></li>
+                        <li><a href="problema.php">Problema abordado</a></li>
+                        <li><a href="objetivos.php">Objetivos</a></li>
+                        <li><a href="enfoque.php">Enfoque conceptual</a></li>
                     </ul>
                 </li>
 
@@ -108,28 +110,6 @@
                         <li><a href="#">Mapas</a></li>
                         <li><a href="#">Material audiovisual</a></li>
                         <li><a href="#">Base de datos</a></li>
-                    </ul>
-                </li>
-
-                <!-- 10. Equipo -->
-                <li class="dropdown">
-                    <a href="#equipo">Equipo</a>
-                    <ul class="dropdown-content">
-                        <li><a href="#">Investigadores</a></li>
-                        <li><a href="#">Instituciones participantes</a></li>
-                        <li><a href="#">Colaboradores</a></li>
-                        <li><a href="#">Redes académicas</a></li>
-                    </ul>
-                </li>
-
-                <!-- 11. Contacto -->
-                <li class="dropdown">
-                    <a href="#contacto">Contacto</a>
-                    <ul class="dropdown-content">
-                        <li><a href="#">Correo</a></li>
-                        <li><a href="#">Institución</a></li>
-                        <li><a href="#">Redes sociales</a></li>
-                        <li><a href="#">Formulario de contacto</a></li>
                     </ul>
                 </li>
             </ul>
