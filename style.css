@@ -327,6 +327,7 @@ body {
 
 .styled-list {
     list-style: none;
+    list-style-type: none;
     padding: 0;
     margin: 20px 0;
 }
@@ -337,7 +338,7 @@ body {
     position: relative;
     line-height: 1.6;
     font-size: 0.95rem;
-    text-align: left;
+    text-align: justify;
 }
 
 /* Viñeta personalizada (Flecha) */
