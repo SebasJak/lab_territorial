@@ -4,9 +4,9 @@
     <section class="section-container">
         <h1 class="page-title">SOBRE EL PROYECTO</h1>
         <p class="page-subtitle">About project</p>
-        
+
         <div class="horizontal-row">
-            <!-- 1. Contexto y origen -->
+            <!-- 2.1. Contexto y origen -->
             <a href="contexto.php" class="sub-point-link">
                 <div class="sub-point-item">
                     <div class="square-placeholder"></div>
@@ -14,7 +14,7 @@
                 </div>
             </a>
 
-            <!-- 2. Problema abordado -->
+            <!-- 2.2. Problema abordado -->
             <a href="problema.php" class="sub-point-link">
                 <div class="sub-point-item">
                     <div class="square-placeholder"></div>
@@ -22,7 +22,7 @@
                 </div>
             </a>
 
-            <!-- 3. Objetivos -->
+            <!-- 2.3. Objetivos -->
             <a href="objetivos.php" class="sub-point-link">
                 <div class="sub-point-item">
                     <div class="square-placeholder"></div>
@@ -30,7 +30,7 @@
                 </div>
             </a>
 
-            <!-- 4. Enfoque conceptual -->
+            <!-- 2.4. Enfoque conceptual -->
             <a href="enfoque.php" class="sub-point-link">
                 <div class="sub-point-item">
                     <div class="square-placeholder"></div>

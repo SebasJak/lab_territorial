@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LAB - Laboratorio Territorial</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header class="app-bar">
         <nav class="nav-container">
-            <!-- Logo LAB vinculado a Inicio -->
             <a href="index.php" class="logo">LAB</a>
 
             <ul class="nav-links">
-                <!-- 1. Pestaña Home con sub-puntos seleccionados [1] -->
                 <li class="dropdown">
                     <a href="index.php">Home</a>
                     <ul class="dropdown-content">
@@ -24,7 +24,6 @@
                     </ul>
                 </li>
 
-                <!-- 2. Sobre el proyecto [1] -->
                 <li class="dropdown">
                     <a href="sobre.php">Sobre el proyecto</a>
                     <ul class="dropdown-content">
@@ -35,7 +34,6 @@
                     </ul>
                 </li>
 
-                <!-- 3. Marco metodológico [1] -->
                 <li class="dropdown">
                     <a href="#metodologia">Marco metodológico</a>
                     <ul class="dropdown-content">
@@ -45,7 +43,6 @@
                     </ul>
                 </li>
 
-                <!-- 4. Casos de estudio [1] -->
                 <li class="dropdown">
                     <a href="#casos">Casos de estudio</a>
                     <ul class="dropdown-content">
@@ -55,7 +52,6 @@
                     </ul>
                 </li>
 
-                <!-- 5. Proyectos de estudiantes [1] -->
                 <li class="dropdown">
                     <a href="#proyectos">Proyectos</a>
                     <ul class="dropdown-content">
@@ -66,7 +62,6 @@
                     </ul>
                 </li>
 
-                <!-- 6. Experiencia pedagógica -->
                 <li class="dropdown">
                     <a href="#experiencia">Experiencia</a>
                     <ul class="dropdown-content">
@@ -78,7 +73,6 @@
                     </ul>
                 </li>
 
-                <!-- 7. Resultados e impacto -->
                 <li class="dropdown">
                     <a href="#resultados">Resultados</a>
                     <ul class="dropdown-content">
@@ -90,7 +84,6 @@
                     </ul>
                 </li>
 
-                <!-- 8. Publicaciones y productos -->
                 <li class="dropdown">
                     <a href="#publicaciones">Publicaciones</a>
                     <ul class="dropdown-content">
@@ -101,7 +94,6 @@
                     </ul>
                 </li>
 
-                <!-- 9. Recursos / repositorio -->
                 <li class="dropdown">
                     <a href="#recursos">Recursos</a>
                     <ul class="dropdown-content">
