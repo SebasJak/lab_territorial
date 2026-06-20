@@ -8,50 +8,75 @@
         <div class="bilingual-columns">
             <div class="column-es">
                 <h3>Español</h3>
-                <u class="styled-list">
-                    <!-- TODO: Hacer al primer objetivo el principal en la jerarquía visual de la lista. -->
-                    <li><strong>Objetivo General:</strong> Crear la plataforma de innovación pedagógica: laboratorio
+                <u class="objective-list" style="text-decoration: none;">
+                    <!-- Error de "elememto de lista sigue subrayado" solucionado modificando directamente el atributo
+                     style (text-decoration: none;) en las etiquetas u. -->
+                    <li class="strong-item">
+                        <strong>Objetivo General:</strong> Crear la plataforma de innovación pedagógica: laboratorio
                         territorial, en el ámbito arquitectónico interinstitucional en los territorios de paisajes
-                        desérticos Perú, Chile y México, para generar agentes sociales del cambio.</li>
-                    <li><strong>Objetivo Específico 1:</strong> Planificar las estrategias de enseñanza - aprendizaje
+                        desérticos Perú, Chile y México, para generar agentes sociales del cambio.
+                    </li>
+                    <li>
+                        <strong>Objetivo Específico 1:</strong> Planificar las estrategias de enseñanza - aprendizaje
                         que permitan, a alumno-docente, convertirse en agentes de cambio conscientes de las
-                        problemáticas que actualmente padecen los territorios del paisaje desierto.</li>
-                    <li><strong>Objetivo Específico 2:</strong> Interpretar la caracterización del paisaje del desierto
+                        problemáticas que actualmente padecen los territorios del paisaje desierto.
+                    </li>
+                    <li>
+                        <strong>Objetivo Específico 2:</strong> Interpretar la caracterización del paisaje del desierto
                         de Tacna en Perú; Iquique en Chile y de Juárez, México; considerando la conceptualización de
                         Paisaje de manera paralela a la identificación de los elementos territoriales contextuales que
                         lo integran. (Activación del aprendizaje).
-                    <li><strong>Objetivo Específico 3:</strong> Consolidar una Red Académica que articula aprendizajes
+                    </li>
+                    <li>
+                        <strong>Objetivo Específico 3:</strong> Consolidar una Red Académica que articula aprendizajes
                         activados desde los territorios de los paisajes del desierto.
-                    <li><strong>Objetivo Específico 4:</strong> Implementar la activación del aprendizaje desde el
+                    </li>
+                    <li>
+                        <strong>Objetivo Específico 4:</strong> Implementar la activación del aprendizaje desde el
                         territorio desértico en el diseño y evaluar el impacto en los actores de enseñanza aprendizaje.
                     </li>
-                    <li><strong>Objetivo Específico 5:</strong> Sensibilizar, socializar los productos obtenidos y
-                        actividades vinculadas al paisaje del desierto en cada país de estudio.</li>
-                </u>
+                    <li>
+                        <strong>Objetivo Específico 5:</strong> Sensibilizar, socializar los productos obtenidos y
+                        actividades vinculadas al paisaje del desierto en cada país de estudio.
+                    </li>
+                    </ul>
             </div>
 
             <div class="column-en">
                 <h3>English</h3>
-                <u class="styled-list">
-                    <!-- TODO: Make the first objective the main one in the visual hierarchy of the list. -->
-                    <li><strong>General Objective:</strong> To create the pedagogical innovation platform: territorial
+                <!-- Completed by ai-assisted translation. -->
+
+                <u class="objective-list" style="text-decoration: none;">
+                    <!-- "List item is still underlined" error fixed by direct modification of the style attribute
+                     (text-decoration: none;) in the u tags. -->
+                    <li class="strong-item">
+                        <strong>General Objective:</strong> To create the pedagogical innovation platform: territorial
                         laboratory, in the inter-institutional architectural field in the desert landscape territories
-                        of
-                        Peru, Chile, and Mexico, to generate social agents of change.</li>
-                    <li><strong>Specific Objective 1:</strong> To plan teaching-learning strategies that enable
+                        of Peru, Chile, and Mexico, to generate social agents of change.
+                    </li>
+                    <li>
+                        <strong>Specific Objective 1:</strong> To plan teaching-learning strategies that enable
                         students and teachers to become agents of change aware of the problems currently affecting the
-                        desert landscape territories.</li>
-                    <li><strong>Specific Objective 2:</strong> To interpret the landscape characterization of the desert
+                        desert landscape territories.
+                    </li>
+                    <li>
+                        <strong>Specific Objective 2:</strong> To interpret the landscape characterization of the desert
                         of Tacna in Peru; Iquique in Chile, and Juárez, Mexico; considering the conceptualization of
                         Landscape in parallel with the identification of the contextual territorial elements that
                         integrate it. (Learning Activation).
-                    <li><strong>Specific Objective 3:</strong> To consolidate an Academic Network that articulates
+                    </li>
+                    <li>
+                        <strong>Specific Objective 3:</strong> To consolidate an Academic Network that articulates
                         learning activated from the territories of the desert landscapes.
-                    <li><strong>Specific Objective 4:</strong> To implement the activation of learning from the desert
+                    </li>
+                    <li>
+                        <strong>Specific Objective 4:</strong> To implement the activation of learning from the desert
                         territory in the design and evaluate the impact on the teaching-learning actors.
                     </li>
-                    <li><strong>Specific Objective 5:</strong> To raise awareness and socialize the products obtained
-                        and activities related to the desert landscape in each country of study.</li>
+                    <li>
+                        <strong>Specific Objective 5:</strong> To raise awareness and socialize the products obtained
+                        and activities related to the desert landscape in each country of study.
+                    </li>
                     </ul>
             </div>
         </div>

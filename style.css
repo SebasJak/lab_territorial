@@ -317,16 +317,28 @@ body {
     align-items: center;
 }
 
-/* Cuadrado negro (Placeholder de imagen) */
-.square-placeholder {
+/* Estilos para Iconos en Sobre el Proyecto */
+.icon-container {
     width: 100%;
     aspect-ratio: 1/1;
-    background-color: #000;
-    margin-bottom: 20px;
+    background-color: #ddd;
+    border-radius: 50%;
+    /* Forma circular (no cuadrada) */
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
 }
 
-.square-placeholder:hover {
+.icon-container:hover {
     opacity: 0.8;
+}
+
+/* Estilo del icono */
+.icon-container .material-icons {
+    font-size: 50px;
+    color: var(--accent-water);
 }
 
 /* Rótulo con el nombre del sub-punto */
@@ -395,6 +407,14 @@ body {
     margin-bottom: 20px;
 }
 
+/* Letras capitales, deben ocupar tres líneas. */
+.first-paragraph::first-letter {
+    font-size: 5em;
+    line-height: 0.8;
+    float: left;
+    margin-right: 0.2em;
+}
+
 .column-es img,
 .column-en img {
     width: 100%;
@@ -448,37 +468,68 @@ body {
 }
 
 /* Objetivos */
-
-.styled-list {
+/* --- Estilos base para Objetivos --- */
+.objective-list {
     list-style: none;
-    list-style-type: none;
-    padding: 0;
-    margin: 20px 0;
+    padding-left: 0;
+    margin-top: 0;
+    /* Elimina el margen superior por defecto */
 }
 
-.styled-list li {
-    margin-bottom: 18px;
-    padding-left: 30px;
-    position: relative;
-    line-height: 1.6;
-    font-size: 0.95rem;
+.objective-list li {
+    margin-bottom: 15px;
+    /* Espaciado entre cada objetivo */
+    padding-left: 25px;
+    /* Espacio para la letra capital (y margen izquierdo) */
     text-align: justify;
+    /* Alineación justificada */
+    line-height: 1.6;
+    /* Mejora la legibilidad */
 }
 
-/* Viñeta personalizada (Flecha) */
-.styled-list li::before {
-    content: "→";
-    position: absolute;
-    left: 0;
-    top: 0;
-    color: var(--accent-earth);
-    /* Color #A0522D basado en el paisaje [1] */
+/* Letra Capital (3 líneas de alto) */
+.objective-list li:first-child::first-letter {
+    font-size: 4.5em;
+    /* Letra grande */
+    line-height: 0.8;
+    /* Ajuste vertical */
+    float: left;
+    /* Flota a la izquierda */
+    margin-right: 0.1em;
+    /* Separación del texto */
+    font-family: serif;
+    /* Estilo serif para cursiva */
+    font-style: italic;
+    color: #555;
+}
+
+/* Estilo para el Objetivo General */
+.objective-list li.strong-item {
     font-weight: bold;
+    border-left: 3px solid var(--accent-earth);
+    /* Borde izquierdo reforzado */
+    background-color: #fafafa;
+    /* Ligero fondo para destacar */
+    padding: 10px 15px;
+    /* Padding interno */
+    border-radius: 5px;
+    /* Bordes redondeados */
 }
 
-/* Resaltado de ítems principales dentro de la lista */
-.styled-list li strong {
-    color: #333;
-    display: inline-block;
-    margin-right: 5px;
+/* Ajustes específicos para el Objetivo General (que ya es fuerte) */
+.objective-list li.strong-item::first-letter {
+    font-size: 3.5em;
+    /* Un poco más pequeño para no chocar con el borde */
+    color: var(--accent-earth);
+}
+
+/* Eliminar el padding interno extra del li.strong-item en la primera letra */
+.objective-list li.strong-item:first-child::first-letter {
+    padding-left: 0;
+}
+
+/* --- Estilos para "Marco Metodológico" --- */
+.marco-main {
+    padding: 80px 5%;
+    text-align: center;
 }

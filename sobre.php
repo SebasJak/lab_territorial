@@ -6,34 +6,50 @@
         <p class="page-subtitle">About project</p>
 
         <div class="horizontal-row">
-            <!-- 2.1. Contexto y origen -->
+            <!-- A. Contexto y origen -->
             <a href="contexto.php" class="sub-point-link">
                 <div class="sub-point-item">
-                    <div class="square-placeholder"></div>
+                    <div class="icon-container">
+                        <span class="material-icons">
+                            content_paste_search
+                        </span>
+                    </div>
                     <p class="sub-point-label">Contexto y origen de la investigación</p>
                 </div>
             </a>
 
-            <!-- 2.2. Problema abordado -->
+            <!-- B. Problema abordado -->
             <a href="problema.php" class="sub-point-link">
                 <div class="sub-point-item">
-                    <div class="square-placeholder"></div>
+                    <div class="icon-container">
+                        <span class="material-icons">
+                            fact_check
+                        </span>
+                    </div>
                     <p class="sub-point-label">Problema abordado</p>
                 </div>
             </a>
 
-            <!-- 2.3. Objetivos -->
+            <!-- C. Objetivos -->
             <a href="objetivos.php" class="sub-point-link">
                 <div class="sub-point-item">
-                    <div class="square-placeholder"></div>
+                    <div class="icon-container">
+                        <span class="material-icons">
+                            explore
+                        </span>
+                    </div>
                     <p class="sub-point-label">Objetivos</p>
                 </div>
             </a>
 
-            <!-- 2.4. Enfoque conceptual -->
+            <!-- D. Enfoque conceptual -->
             <a href="enfoque.php" class="sub-point-link">
                 <div class="sub-point-item">
-                    <div class="square-placeholder"></div>
+                    <div class="icon-container">
+                        <span class="material-icons">
+                            public
+                        </span>
+                    </div>
                     <p class="sub-point-label">Enfoque conceptual (paisaje, territorio, educación)</p>
                 </div>
             </a>

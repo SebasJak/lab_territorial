@@ -8,7 +8,8 @@
         <div class="bilingual-columns">
             <div class="column-es">
                 <h3>Español</h3>
-                <p>En el escenario complejo inmerso en el cambio climático, es importante abordar el proceso de
+                <p class="first-paragraph">
+                    En el escenario complejo inmerso en el cambio climático, es importante abordar el proceso de
                     enseñanza aprendizaje con la visión del territorio en el paisaje desértico, pues evidencia la brecha
                     existente entre el estudio del paisaje y el proceso proyectual del diseño arquitectónico. Diferentes
                     autores señalados como Hewitt (2014), Raaphorst et al. (2020), abordan esta preocupación e
@@ -46,7 +47,9 @@
 
             <div class="column-en">
                 <h3>English</h3>
-                <p>In the complex scenario immersed in climate change, it is important to address the teaching-learning
+                <!-- Completed by ai-assisted translation. -->
+                <p class="first-paragraph">
+                    In the complex scenario immersed in climate change, it is important to address the teaching-learning
                     process with the vision of the territory in the desert landscape, as it highlights the existing gap
                     between the study of the landscape and the architectural design project process. Different authors,
                     cited as Hewitt (2014) and Raaphorst et al. (2020), address this concern and identify this gap,
@@ -84,16 +87,22 @@
             <h2 class="plans-title">PLANOS DE UBICACIÓN</h2>
             <div class="plans-row">
                 <div class="plan-item">
-                    <img src="img/plan-tacna.jpg" alt="Plano de Perú">
-                    <p class="plan-label">Tacna - Perú</p>
+                    <a href="img/plan-tacna.jpg" target="_blank">
+                        <img src="img/plan-tacna.jpg" alt="Plano de Perú">
+                        <p class="plan-label">Tacna - Perú</p>
+                    </a>
                 </div>
                 <div class="plan-item">
-                    <img src="img/plan-iquique.jpg" alt="Plano de Chile">
-                    <p class="plan-label">Iquique - Chile</p>
+                    <a href="img/plan-iquique.jpg" target="_blank">
+                        <img src="img/plan-iquique.jpg" alt="Plano de Chile">
+                        <p class="plan-label">Iquique - Chile</p>
+                    </a>
                 </div>
                 <div class="plan-item">
-                    <img src="img/plan-juarez.jpg" alt="Plano de México">
-                    <p class="plan-label">Juárez - México</p>
+                    <a href="img/plan-juarez.jpg" target="_blank">
+                        <img src="img/plan-juarez.jpg" alt="Plano de México">
+                        <p class="plan-label">Juárez - México</p>
+                    </a>
                 </div>
             </div>
         </div>

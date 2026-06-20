@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LAB - Laboratorio Territorial</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -35,7 +36,7 @@
                 </li>
 
                 <li class="dropdown">
-                    <a href="#metodologia">Marco metodológico</a>
+                    <a href="marco.php">Marco metodológico</a>
                     <ul class="dropdown-content">
                         <li><a href="#">Explicación metodología</a></li>
                         <li><a href="#">Fases del proceso</a></li>

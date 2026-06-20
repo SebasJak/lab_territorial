@@ -8,7 +8,8 @@
         <div class="bilingual-columns">
             <div class="column-es">
                 <h3>Español</h3>
-                <p>La educación superior atraviesa una transformación profunda. La Tercera Conferencia Mundial sobre
+                <p class="first-paragraph">
+                    La educación superior atraviesa una transformación profunda. La Tercera Conferencia Mundial sobre
                     Educación Superior de la UNESCO (Barcelona, 2022) lo plantea con claridad: la universidad debe
                     acercarse a la comunidad, fortalecer la educación como bien público y construir nuevas ecologías de
                     aprendizaje. Este llamado, enmarcado en los Objetivos de Desarrollo Sostenible, exige formar
@@ -47,8 +48,9 @@
 
             <div class="column-en">
                 <h3>English</h3>
-                <p>Higher education is undergoing a profound transformation. The Third UNESCO World Conference on Higher
-                    Education (Barcelona, 2022) makes this clear: universities must engage with the community,
+                <p class="first-paragraph">
+                    Higher education is undergoing a profound transformation. The Third UNESCO World Conference on
+                    Higher Education (Barcelona, 2022) makes this clear: universities must engage with the community,
                     strengthen education as a public good, and build new learning ecosystems. This call, grounded in the
                     Sustainable Development Goals, requires training professionals with practical skills to contribute
                     to the sustainable development of their regions.
@@ -70,14 +72,14 @@
                     territory—to experience it, not just to study it—enriches the design process and shapes
                     professionals who are more sensitive to their environment and the communities that inhabit it.
                 </p>
-                <!-- Completed by translation agent. -->
+                <!-- Completed by ai-assisted translation. -->
                 <p>In regions such as <strong>Tacna, Iquique, and Juárez</strong>, with their unique desert landscapes
                     and in a context of accelerating climate change that transforms the territory, this educational
                     dimension takes on particular urgency. The morphology, resources, and specific conditions of the
                     desert offer a field of learning that has not yet been sufficiently incorporated into architectural
                     design studios.
                 </p>
-                <!-- Completed by translation agent. -->
+                <!-- Completed by ai-assisted translation. -->
                 <p>Faced with this scenario, the need arises to investigate how landscape management in professional
                     training—through experiences situated in the territory—develops critical competencies in
                     architecture students and teachers, transforming them into active agents of social and territorial
