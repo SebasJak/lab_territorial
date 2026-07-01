@@ -38,23 +38,23 @@
                 <li class="dropdown">
                     <a href="marco.php">Marco metodológico</a>
                     <ul class="dropdown-content">
-                        <li><a href="#">Explicación metodología</a></li>
-                        <li><a href="#">Fases del proceso</a></li>
-                        <li><a href="#">Instrumentos</a></li>
+                        <li><a href="metodologia.php">Explicación metodología</a></li>
+                        <li><a href="fases.php">Fases del proceso</a></li>
+                        <li><a href="instrumentos.php">Instrumentos</a></li>
                     </ul>
                 </li>
 
                 <li class="dropdown">
-                    <a href="#casos">Casos de estudio</a>
+                    <a href="casos.php">Casos de estudio</a>
                     <ul class="dropdown-content">
-                        <li><a href="#">Perú</a></li>
-                        <li><a href="#">Chile</a></li>
-                        <li><a href="#">México</a></li>
+                        <li><a href="peru.php">Perú</a></li>
+                        <li><a href="chile.php">Chile</a></li>
+                        <li><a href="mexico.php">México</a></li>
                     </ul>
                 </li>
 
                 <li class="dropdown">
-                    <a href="#proyectos">Proyectos</a>
+                    <a href="proyectos.php">Proyectos</a>
                     <ul class="dropdown-content">
                         <li><a href="#">Propuestas arquitectónicas</a></li>
                         <li><a href="#">Registro visual</a></li>

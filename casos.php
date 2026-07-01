@@ -2,43 +2,43 @@
 
 <main class="marco-main">
     <section class="section-container">
-        <h1 class="page-title">MARCO METODOLÓGICO</h1>
-        <p class="page-subtitle">Methodological Framework</p>
+        <h1 class="page-title">CASOS DE ESTUDIO</h1>
+        <p class="page-subtitle">Study Cases</p>
 
         <div class="horizontal-row">
-            <!-- A. Explicación de la metodología -->
-            <a href="metodologia.php" class="sub-point-link">
+            <!-- A. Perú -->
+            <a href="peru.php" class="sub-point-link">
                 <div class="sub-point-item">
                     <div class="icon-container">
                         <span class="material-icons">
-                            folder
+                            flag_us
                         </span>
                     </div>
-                    <p class="sub-point-label">Explicación de la metodología</p>
+                    <p class="sub-point-label">Perú</p>
                 </div>
             </a>
 
-            <!-- B. Fases del proceso -->
-            <a href="fases.php" class="sub-point-link">
+            <!-- B. Chile -->
+            <a href="chile.php" class="sub-point-link">
                 <div class="sub-point-item">
                     <div class="icon-container">
                         <span class="material-icons">
-                            timeline
+                            flag_uk
                         </span>
                     </div>
-                    <p class="sub-point-label">Fases del proceso</p>
+                    <p class="sub-point-label">Chile</p>
                 </div>
             </a>
 
-            <!-- C. Instrumentos -->
-            <a href="instrumentos.php" class="sub-point-link">
+            <!-- C. México -->
+            <a href="mexico.php" class="sub-point-link">
                 <div class="sub-point-item">
                     <div class="icon-container">
                         <span class="material-icons">
-                            library_books
+                            flag_mx
                         </span>
                     </div>
-                    <p class="sub-point-label">Instrumentos</p>
+                    <p class="sub-point-label">México</p>
                 </div>
             </a>
         </div>
