@@ -11,7 +11,7 @@
                 <div class="sub-point-item">
                     <div class="icon-container">
                         <span class="material-icons">
-                            flag_us
+                            assistant_photo
                         </span>
                     </div>
                     <p class="sub-point-label">Perú</p>
@@ -23,7 +23,7 @@
                 <div class="sub-point-item">
                     <div class="icon-container">
                         <span class="material-icons">
-                            flag_uk
+                            assistant_photo
                         </span>
                     </div>
                     <p class="sub-point-label">Chile</p>
@@ -35,7 +35,7 @@
                 <div class="sub-point-item">
                     <div class="icon-container">
                         <span class="material-icons">
-                            flag_mx
+                            assistant_photo
                         </span>
                     </div>
                     <p class="sub-point-label">México</p>

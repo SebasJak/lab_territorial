@@ -1,11 +1,11 @@
-<?php include 'header.php'; ?>
+<?php include '..\header.php'; ?>
 
 <main class="content-detail-main">
     <section class="container">
         <h1 class="detail-title">PERÚ</h1>
-        <p class="english-detail-subtitle">Perú</p>
+        <p class="english-detail-subtitle">Peru</p>
     </section>
 
 </main>
 
-<?php include 'footer.php'; ?>
+<?php include '..\footer.php'; ?>
