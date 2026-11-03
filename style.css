@@ -533,3 +533,156 @@ body {
     padding: 80px 5%;
     text-align: center;
 }
+
+/* --- Base Layout & Typography --- */
+body {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 0;
+}
+
+.content-detail-main {
+    padding-bottom: 4rem;
+}
+
+/* --- Header Section --- */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 2rem 2rem;
+    text-align: center;
+}
+
+.detail-title {
+    font-size: 3.5rem;
+    color: #2c3e50;
+    margin: 0 0 0.5rem 0;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.english-detail-subtitle {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 0;
+}
+
+/* --- Hero Section (Split Image & Text) --- */
+.country-hero-split {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 0 auto 4rem auto;
+    padding: 0 2rem;
+}
+
+.country-hero-visual {
+    flex: 1 1 45%;
+    display: flex;
+}
+
+/* Hero Image Styling */
+.country-hero-img {
+    width: 100%;
+    height: 100%;
+    min-height: 400px;
+    object-fit: cover;
+    border-radius: 16px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.country-hero-img:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* Hero Text Styling */
+.country-hero-content-text {
+    flex: 1 1 45%;
+    background: #ffffff;
+    padding: 2.5rem;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+.study-case-title {
+    color: #2980b9;
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid #ecf0f1;
+    padding-bottom: 0.5rem;
+}
+
+.desc-text p {
+    margin-bottom: 1.2rem;
+    color: #555;
+    text-align: justify;
+}
+
+.desc-text p:last-child {
+    margin-bottom: 0;
+}
+
+/* --- Gallery Section (Subpoints) --- */
+.country-location-subpoints {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.country-subpoints-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    aspect-ratio: 4 / 3;
+    /* Ensures all images are uniform in size */
+}
+
+/* Gallery Images Styling */
+.country-subpoints-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease, filter 0.5s ease;
+}
+
+/* Image Hover Effects */
+.country-subpoints-item:hover .country-subpoints-img {
+    transform: scale(1.1);
+    filter: brightness(1.05) contrast(1.1);
+}
+
+/* --- Responsive Adjustments --- */
+@media (max-width: 768px) {
+    .detail-title {
+        font-size: 2.5rem;
+    }
+
+    .country-hero-split {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .country-hero-img {
+        min-height: 300px;
+    }
+
+    .country-hero-content-text {
+        padding: 1.5rem;
+    }
+}

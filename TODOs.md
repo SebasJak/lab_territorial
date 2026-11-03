@@ -3,7 +3,7 @@
     [X] Fases del proceso. 
     [X] Instrumentos.
 
-[] Crear los .php(s) para las secciones de los Casos de Estudio.
+[-] Crear los .php(s) para las secciones de los Casos de Estudio.
     [] Perú.
-    [] México.
-    [] Chile. (Faltan los recursos por el momento.)
+    [-] México.
+    [] Chile.

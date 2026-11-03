@@ -50,6 +50,24 @@
         <div class="country-subpoints-item">
             <img src="img/location-juarez1.png" alt="Subpunto 1 Ubicación México" class="country-subpoints-img">
         </div>
+        <div class="country-subpoints-item">
+            <img src="img/location-juarez2.png" alt="Subpunto 2 Ubicación México" class="country-subpoints-img">
+        </div>
+        <div class="country-subpoints-item">
+            <img src="img/location-juarez3.png" alt="Subpunto 3 Ubicación México" class="country-subpoints-img">
+        </div>
+        <div class="country-subpoints-item">
+            <img src="img/location-juarez4.png" alt="Subpunto 4 Ubicación México" class="country-subpoints-img">
+        </div>
+        <div class="country-subpoints-item">
+            <img src="img/location-juarez5.png" alt="Subpunto 5 Ubicación México" class="country-subpoints-img">
+        </div>
+        <div class="country-subpoints-item">
+            <img src="img/location-juarez6.png" alt="Subpunto 6 Ubicación México" class="country-subpoints-img">
+        </div>
+        <div class="country-subpoints-item">
+            <img src="img/location-juarez7.png" alt="Subpunto 7 Ubicación México" class="country-subpoints-img">
+        </div>
     </section>
 </main>
 
